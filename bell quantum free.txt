@@ -127,15 +127,23 @@ This implies that even if you know completely the state of the black box before 
 
 So what is this bizarre kind of state that do not allow you to deduce with certitude what the future is going to be ? This is called in quantum terminology a *superposition state*. A quantum physicist would say that the black box is in a superposition of two states, one leading to the 1 output, and the other one to the -1.
 
-To come back to the Schrödinger's cat, quantum mechanics predicts that the cat's state before one opens the box is indeterminate in the same sense : even if you knew the cat's state completely, you could not deduce whether it will be dead or alive when you open the box.
+To come back to the Schrödinger's cat, quantum mechanics predicts that the cat's state before one opens the box is indeterminate in the same sense : even if you knew the cat's state completely, you could not deduce whether it will be dead or alive when you will open the box.
 
 ## Quantum theory is incomplete
 
 However there is a problem with the quantum theory. It says that the output of the black box is a random variable that depends on both the input and the internal state, but it says nothing about the exact time at which  the state of the black box is enough determined so that the output  of the black box is fully predictible. In quantum mechanics, this time is referred as the "measurement time", which is not a very precise description.
 
+## Quantum theory is complete
+
+Most physicists believe that the quantum theory is complete : they believe that the so-called "measurement time" is actually the time when the observation data come to the observer's consciousness but however that this "measurement time" may be different for each observer. This means for example that Alice and Bob are themselves in a superposition of states with respect to their friend John who waits for them outside the museum (because he was afraid of quantum black holes). Then, the measurement time for John would be when he meets again Alice and Bob after the experiment and that they tell him what happened inside. This was a kind of grossier example, but that's the spirit.
+
+The many-world interpretation is the most mainstream interpretation among physicists to understand this weird fact : it says that each time there is a quantum experiment, the world is forked in two versions, one for each possible result. But we humans are only conscious of one world. The main issue with this interpretation is that the many-worlds hypothesis cannot be tested, so it may be questioned whether this should be considered as a serious scientific proposition
+
+Relational quantum mechanics is another current among physicists, initiated by Carlo Rovelli, that just says that we should accept this fact in a similar fashion that Einstein's theory of relativity made us accept the fact that for example the speed of time is relative to the observer.
+
 ## Conclusion
 
-This experiment, described in terms of abstract black boxes, does not imply the reality of the quantum theory, but at least it shows that the classical picture is wrong.
+This experiment, described in terms of abstract black boxes, does not justify the quantum theory, but at least it shows that the classical picture is wrong.
 
 If some day we were able to build such black boxes (which is a technological challenge, no a theoretical one), everyone could do the experiment with a friend. No-one could deny the failure of the classical description of the world by arguing that physicists made mistakes, or that this is a scientist complot.
 
