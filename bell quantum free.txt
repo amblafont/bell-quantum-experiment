@@ -8,13 +8,40 @@ Alice and Bob arrive at the experiment place. There are two black boxes located 
 
 They agree to do the experiment for five minutes. The experiment starts.
 
-Every second, they choose simultaneously a random input 1 or -1, and they note the output given by the black box. At the end of the experiment they compare the outputs. They divide there datas into 4 categories :
+Every second, they choose simultaneously a random input 1 or -1, and they note the output given by the black box. At the end of the experiment they compare the outputs. They compute the products of their outputs for each time. Then they divide the datas into 4 categories :
 * The times when Alice chose the input $$1$$ and Bob chose the input $$1$$. 
 * The times when Alice chose the input $$1$$ and Bob chose the input $$-1$$. 
 * The times when Alice chose the input $$-1$$ and Bob chose the input $$-1$$. 
 * The times when Alice chose the input $$-1$$ and Bob chose the input $$1$$. 
 
-For each category, they compute the average of the product of their outputs. Let's note
+For each category, they compute the average of the product of their outputs. 
+### Small example
+This is a small example to explain the previous sentence.
+
+Here is the outputs Alice and Bob got for each time when they both chose +1 as inputs.
+
+| A | B |
+|---:|---:|
+|-1 | 1 |
+| 1 | 1 |
+|-1 | 1 |
+|-1 |-1 |
+|-1 |-1 |
+| 1 | -1 |
+
+They compute the products of the output for each time
+| A | B | AB |
+|---:|---:|----:|
+|-1 | 1 | -1 |
+| 1 | 1 |  1 |
+|-1 | 1 | -1 |
+|-1 |-1 | -1 |
+|-1 |-1 |  1 |
+| 1 |-1 | -1 |
+
+Now they compute the average : this gives a number between -1 and +1 (here, this gives $$u_{++}=-\frac{1}{3}$$)
+### End of example
+Let's note
 * $$u_{++}$$ the computed average for the first category,
 * $$u_{+-}$$ the computed average for the second category,
 * $$u_{-+}$$ the computed average for the third category,
