@@ -50,7 +50,7 @@ We note
 Now they compute $$u_{++}+u_{+-}+u_{-+}-u_{--}$$. They find a number which is bigger than 2. A panel explains that if the world were classical they could not find a number bigger than 2.
 
 Bob is disappointed : he expected to see a Schrödinger's cat, and this experiment is just about computing numbers. So boring!
-While Bob complains, Alice reads the panels that explain why this sould be so.
+While Bob complains, Alice reads the panels that explain why this should be so.
 ## Why classical picture predicts less than 2
 Let us model this as a random experiment. Here, an experiment is what happens every second : a choice of inputs, leading to outputs.
 * The internal initial state of Alice's black box (ie the state of Alice's black box just before Alice or Bob sets the input)  is a random variable $$s_a$$. For example, $$s_a$$ may be the positions and speeds of all the particles inside the black box.
